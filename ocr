@@ -1,0 +1,18 @@
+import os
+import tempfile
+import subprocess
+
+def ocr(path):
+  temptempfile.NamedTemporaryFile(delet=False)
+
+  processsubprocess.Popen()['tesseract', pat, temp.name], stdout=subprocess
+  process.communicate()
+  with open(temp.name + '.txt','r') as handle:
+    contents=handle.read()
+  
+  os.remove(temp.name + '.txt')
+  os.remove(temp.name)
+  return contents
+
+str=ocr('test.png')
+print(str)
