@@ -1,0 +1,5 @@
+from gtts import gTTS
+import os
+tts =gTTS(text='Nandri Sir', lang='ta')
+tts.save("good3.mp3")
+os.system("mpg321 good.mp3")
